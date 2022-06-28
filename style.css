@@ -1,0 +1,77 @@
+
+
+/*--------------------------------------------------------------
+# Custom Fonts
+--------------------------------------------------------------*/
+
+@font-face{
+    font-family: Okra-bold;
+    src: url(assets/fonts/metropolis/Metropolis-Bold.otf);
+}
+@font-face{
+    font-family: Okra-regular;
+    src: url(assets/fonts/metropolis/Metropolis-Regular.otf);
+}
+@font-face{
+    font-family: Okra-italic;
+    src: url(assets/fonts/metropolis/Metropolis-RegularItalic.otf);
+}
+@font-face{
+    font-family: Okra-light;
+    src: url(assets/fonts/metropolis/Metropolis-Light.otf);
+}
+@font-face{
+    font-family: Okra-light-italic;
+    src: url(assets/fonts/metropolis/Metropolis-LightItalic.otf);
+}
+
+@font-face{
+    font-family: Okra-medium;
+    src: url(assets/fonts/metropolis/Metropolis-Medium.otf);
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+:root {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Okra-regular", sans-serif;
+    color: #444444;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Okra-regular", sans-serif;
+  }
+  /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header{
+    background: url(assets/images/header-img.png);
+}
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+  .navbar {
+    padding: 17px 0;
+    max-width: 110rem;
+  }
+  .nav-link{
+    color: #ffffff;
+  }
+  .nav-link:hover{
+    color: #ffffff;
+  }
+
+.get-app{
+    font-size: 14px;
+    color: #ffffff !important;
+  }
+  .menu-icon{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+
+  }
