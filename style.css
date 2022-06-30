@@ -55,9 +55,6 @@
   div,p{
     font-size: 1.5rem;
   }
-  section{
-    background-color: rgb(252, 252, 252);
-  }
   h1, h2, h3, h4, h5, h6 {
     font-family: "Okra-regular", sans-serif;
   }
@@ -353,7 +350,7 @@
 }
 
 .cards-text{
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   position: absolute;
   bottom: 0px;
   width: 100%;
