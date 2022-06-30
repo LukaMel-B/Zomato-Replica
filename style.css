@@ -350,7 +350,7 @@
 }
 
 .cards-text{
-  color: rgb(255, 255, 255) !important;
+  color: rgba(255, 255, 255, 0.256) !important;
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -908,7 +908,7 @@ footer{
 }
 
 hr {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   border-width: 1.3px 0px 0px;
   border-right-style: initial;
   border-bottom-style: initial;
