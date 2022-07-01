@@ -163,6 +163,7 @@
     -webkit-box-align: center;
     align-items: center;
     font-size: .8rem !important;
+    text-overflow: ellipsis;
  }
 
  .dropdwon{
